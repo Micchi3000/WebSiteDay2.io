@@ -1,0 +1,102 @@
+body{
+    background-color: #f4f4f4;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin: 0;
+    display: block;
+}
+
+/* Top plus header, nav */
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+#top{
+    background-color:coral;
+    color:#fff;
+}
+
+#navbar{
+    background-color:#333;
+    color:#fff;
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar li a{
+    color: #fff;
+    text-decoration:#fff;
+    padding-right:10%;
+    font-size:18px;
+}
+
+#topimg{
+    background-image:url('showcase.jpg');
+    background-position: center;
+    text-align: center;
+    color:#fff;
+    min-height:50px;
+}
+
+#topimg h1{ 
+    margin:10% auto;
+}
+
+/*Discribe of Main Blocks*/
+
+#main{
+    position: relative;
+}
+
+.contents{
+    line-height: 1.6em;
+    padding:0 30px;
+    margin-top: 10% 10% auto auto;
+    float:left;
+    box-sizing: border-box;
+    width:70%
+    
+}
+
+.sidebar{
+    line-height: 1.6em;
+    float:right;
+    width:30%;
+    padding:10px;
+    box-sizing: border-box;
+    background-color:#333;
+    color:#fff;
+}
+
+
+footer{
+    width:100%;
+    clear: both;
+    text-align: center;
+    padding:30px 0;
+    position: absolute;
+    bottom:0;
+}
+
+@media(max-width:600px){
+	.contents{
+		width:100%;
+		float:none;
+	}
+
+	.sidebar{
+		width:100%;
+		float:none;
+	}
+}
